@@ -1,0 +1,3 @@
+.container-homePage::-webkit-scrollbar {
+  display: none;
+}

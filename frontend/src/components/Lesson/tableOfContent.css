@@ -1,0 +1,33 @@
+nav {
+  width: 220px;
+  min-width: 220px;
+  align-self: flex-start;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  max-height: calc(100vh - 70px);
+  overflow: auto;
+  margin-top: 95px;
+}
+
+nav ul li {
+  margin-bottom: 20px;
+}
+
+.head3 {
+  margin-left: 10px;
+  list-style-type: circle;
+}
+.head4 {
+  margin-left: 20px;
+  list-style-type: square;
+}
+
+.ant-divider-horizontal.ant-divider-with-text::after {
+  border: 1px solid #8acdd7;
+  width: 125px;
+}
+
+.ant-divider-horizontal.ant-divider-with-text::before {
+  border: 1px solid #8acdd7;
+}

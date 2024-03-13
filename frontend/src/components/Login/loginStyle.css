@@ -1,0 +1,11 @@
+.register:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  bottom: 1%;
+  left: 0;
+  width: 100%;
+}
